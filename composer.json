@@ -1,0 +1,27 @@
+{
+    "name": "pinpoint-designs/customer-testimonials",
+    "description": "A magento 2 customer testimonials module",
+    "authors": [
+        {
+            "name": "Mohamed Zahran",
+            "email": "mohamed.zahran@bytology.co.uk"
+        }
+    ],
+    "require": {
+        "php": "~7.1.0"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PinpointDesigns\\CustomerTestimonial\\": ""
+        }
+    },
+    "version": "0.0.1"
+}

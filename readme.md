@@ -10,4 +10,4 @@ A magento 2 customer testimonials module.
     * `$ php bin/magento setup:di:compile`.
     * `$ php bin/magento cache:clean`.
 * After the installation, login to the admin panel and add some testimonials. You'll find a link above Settings, click it, then you'll be able to add, edit, toggle status, and delete testimonials.
-* To preview the changes in the frontstore, navigate to `{storefront_url}/customer-testimonials`.
+* To preview the changes in the frontstore, clean the cache and navigate to `{storefront_url}/customer-testimonials`.

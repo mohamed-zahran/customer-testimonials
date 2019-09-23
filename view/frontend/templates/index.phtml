@@ -1,0 +1,15 @@
+<?php /** @var \PinpointDesigns\CustomerTestimonial\Block\Listing $block */ ?>
+
+<?php if ($block->countTestimonials()): ?>
+<ul>
+    <?php foreach ($block->getTestimonials() as $testimonial): ?>
+        <li>
+            <h2><?= $testimonial->getFullname() ?></h2>
+            <p><?= $testimonial->getContent() ?></p>
+            <span><?= $testimonial->getCreatedAt() ?></span>
+        </li>
+    <?php endforeach; ?>
+</ul>
+<?php else: ?>
+<p><?=__('There are no results!')?></p>
+<?php endif; ?>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="PinpointDesigns_CustomerTestimonial::testimonials"
+             title="Customer Testimonials"
+             translate="title"
+             module="PinpointDesigns_CustomerTestimonial"
+             resource="Magento_Backend::content"
+             sortOrder="70"
+             action="testimonials/testimonial/index"/>
+    </menu>
+</config>
